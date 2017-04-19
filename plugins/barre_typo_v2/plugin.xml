@@ -1,0 +1,64 @@
+<plugin>
+	<nom>
+		<multi>
+		[fr]Barre Typo V2
+		[ar]&#1588;&#1585;&#1610;&#1591; &#1578;&#1606;&#1587;&#1610;&#1602; &#1573;&#1589;&#1583;&#1575;&#1585; &#1634; &#1604;&#1600;&#1633;.&#1641;.&#1634; &#1608;&#1605;&#1575; &#1576;&#1593;&#1583;&#1607;
+		[en]Typographical toolbar V2
+		[de]Typografische Toolbar V2
+		</multi>
+	</nom>
+	<slogan>
+		<multi>
+		[fr]Am&#233;liore la barre typographique de saisie de texte
+		[ar]&#1578;&#1581;&#1587;&#1610;&#1606; &#1588;&#1585;&#1610;&#1591; &#1575;&#1583;&#1608;&#1575;&#1578; [ar]&#1578;&#1581;&#1587;&#1610;&#1606; &#1588;&#1585;&#1610;&#1591; &#1575;&#1583;&#1608;&#1575;&#1578; &#1575;&#1604;&#1603;&#1578;&#1575;&#1576;&#1577; &#1601;&#1610; SPIP
+		[en]Enhances SPIP's typographical toolbar
+		[de]Verbessert die typografische Toolbar von SPIP
+		</multi>
+	</slogan>
+	<version>2.5.3</version>
+	<auteur>Collectif Spip</auteur>
+	<licence>&#169; 2007 GNU/GPL</licence>
+   <etat>stable</etat>
+   <description>
+<multi>
+[fr]La barre est enrichie de plusieurs barres th&#233;matiques pour:
+-* La gestion des liens hypertextes avec gestion des bulles
+-* La gestion des tableaux
+-* Une fonction chercher/remplacer dans le texte de l'article
+-* L'insertion des caract&#232;res sp&#233;ciaux
+-* Changer la casse
+-* Calculer les statistiques du texte (mots, signes, caract&#232;res)
+[ar]&#1608;&#1578;&#1571;&#1578;&#1610; &#1593;&#1583;&#1577; &#1575;&#1588;&#1585;&#1591;&#1577; &#1605;&#1578;&#1582;&#1589;&#1589;&#1577; &#1604;&#1573;&#1594;&#1606;&#1575;&#1569; &#1607;&#1584;&#1575; &#1575;&#1604;&#1588;&#1585;&#1610;&#1591; &#1605;&#1606; &#1571;&#1580;&#1604;:
+-* &#1573;&#1583;&#1575;&#1585;&#1577; &#1608;&#1589;&#1604;&#1575;&#1578; &#1607;&#1575;&#1610;&#1576;&#1585;&#1578;&#1603;&#1587;&#1578; &#1605;&#1593; &#1573;&#1583;&#1575;&#1585;&#1577; &#1604;&#1604;&#1576;&#1575;&#1604;&#1608;&#1606;&#1575;&#1578;
+-* &#1573;&#1583;&#1575;&#1585;&#1577; &#1575;&#1604;&#1580;&#1583;&#1575;&#1608;&#1604;
+-* &#1608;&#1592;&#1610;&#1601;&#1577; &#1576;&#1581;&#1579; &#1608;&#1575;&#1587;&#1578;&#1576;&#1583;&#1575;&#1604; &#1601;&#1610; &#1605;&#1575;&#1583;&#1577; &#1575;&#1604;&#1605;&#1602;&#1575;&#1604;
+-* &#1573;&#1583;&#1585;&#1575;&#1580; &#1581;&#1585;&#1608;&#1601; &#1582;&#1575;&#1589;&#1577;
+-* &#1578;&#1594;&#1610;&#1610;&#1585; &#1575;&#1604;&#1575;&#1581;&#1585;&#1601; &#1575;&#1604;&#1604;&#1575;&#1578;&#1610;&#1606;&#1610;&#1577; &#1605;&#1606; &#1589;&#1594;&#1610;&#1585;&#1577; &#1575;&#1604;&#1609; &#1603;&#1576;&#1610;&#1585;&#1577; &#1608;&#1576;&#1575;&#1604;&#1593;&#1603;&#1587;
+-* &#1581;&#1587;&#1575;&#1576; &#1575;&#1581;&#1589;&#1575;&#1569;&#1575;&#1578; &#1575;&#1604;&#1606;&#1589; (&#1575;&#1604;&#1603;&#1604;&#1605;&#1575;&#1578; &#1608;&#1575;&#1604;&#1575;&#1581;&#1585;&#1601;)
+[en]The toolbar is enriched with several special toolbars aiming at:
+-* the management of hypertext links with balloon help
+-* tables management
+-* a search/replace function in the article's body
+-* inserting special characters
+-* changing case
+-* text statistics (words, characters)
+[de]Die Toolbar ist mit mehreren thematischen Toolbars bereichert f&uuml;r:
+-* Verwaltung der hypertext links mit Hilfeblasen
+-* Tabellenverwaltung
+-* Eine Such- und Ersetzenfunktion im Artikeltext
+-* Einfügen von Spezialzeichen
+-* &Auml;nderung der Gross- und Kleinschrift
+-* Textstatistik berechnen (Worte, Zeichen, Buchstaben)
+</multi>
+	</description>
+	<lien>http://contrib.spip.net/Plugin-Barre-Typographique-V2</lien>
+	<prefix>BarreTypoEnrichie</prefix>
+	<options>typo_options.php</options>
+	<icon>img_pack/moinecopiste.gif</icon>
+	<pipeline>
+		<nom>header_prive</nom>
+		<inclure>barre_enrichie.php</inclure>
+	</pipeline>
+	<categorie>edition</categorie>
+	<necessite id="SPIP" version="[1.9.2;1.9.2]" />
+</plugin>

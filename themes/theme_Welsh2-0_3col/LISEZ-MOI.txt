@@ -1,0 +1,22 @@
+* Deux ou trois colonnes ?
+Par défaut, Welsh 2.0 est proposé en trois colonnes.
+Pour passer en deux colonnes, remplacer les actuels fichiers layout.css, style.css et screenshot.jpg par ceux se trouvant dans le répertoire 2col-files.
+
+* Les onglets
+Les intitulés des onglets et l'url vers laquelle ils pointent se modifient dans le fichier /tpl/_top.html
+On indique le nom de l'onglet dans le paramètre title="" et l'url vers laquelle pointe l'onglet dans le paramètre url. Bien sûr on peut sur le modèle de ceux existants ajouter autant d'onglets qu'on le souhaite.
+
+--------------------------------------------------
+
+TODO
+(Appel aux codeurs)
+
+J'aimerais que pour la version suivante on puisse : 
+- ajouter un paramètre à url="" indiquant que toutes les urls commençant par ladite url doivent marquer l'onglet comme actif;
+- pouvoir indiquer plusieurs urls qui doivent marquer l'onglet actif;
+
+Exemples : 
+
+{{tpl:TabItem title="Archives" url="/monblog/archive" && url="/monblog/archive_month/*" && url="/monblog/archive_day/*"}}
+
+{{tpl:TabItem title="Accueil" url="/monblog && url="/monblog/" && url="monblog/index.php?"}}

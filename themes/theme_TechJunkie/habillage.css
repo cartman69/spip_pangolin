@@ -1,0 +1,671 @@
+/* --------------------------------------------------------- */
+/* Feuille de style des squelettes par defaut pour SPIP 2.0  */
+/* --------------------------------------------------------- */
+/* ----------------------------------------------
+	Template Name : TechJunkie
+	Template Code : S-0024
+	Version : 1.0   
+	Author : Erwin Aligam
+	Author URI : http://www.styleshout.com/    
+	Last Date Modified : May 31, 2008	
+	Adaptation pour Zpip : Cedric Morin http://www.yterium.com
+ ------------------------------------------------ */
+
+
+
+/* formulaires */
+/* form elements */
+/* form elements */
+.formulaire_spip {
+	margin: 15px 0;
+	padding: 10px;
+	border: 1px solid #D8E99E;
+	background: #deedae;
+}
+.formulaire_spip fieldset legend {
+	background: #deedae;
+}
+
+.formulaire_spip li { }
+.formulaire_spip label {
+	display: block;
+	font-weight: bold;
+	margin: 8px 0 5px 0;
+	color: #895F30;
+}
+.formulaire_spip input.text,.formulaire_spip input.password, .formulaire_spip select, .formulaire_spip textarea {
+	padding: 4px;
+	color: #666666;
+	background: #fff;
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: #d4d4d4 #ebebeb #ebebeb #d4d4d4;
+
+	font: normal 11px Verdana, sans-serif;
+}
+.formulaire_spip textarea {
+	height: 100px;
+	display: block;
+}
+#contenu .formulaire_spip textarea {	width:400px;}
+
+.formulaire_spip option { padding-right: 0.5em; }
+
+.formulaire_spip .boutons input {
+	font: bold 12px Arial, Sans-serif;
+	height: 30px;
+	margin: 0;
+	padding: 2px 3px;
+	color: #fff;
+	background: #A6CD56;
+
+	border-width: 1px;
+ 	border-style: solid;
+ 	border-color: #C4DE8F #8DB836 #8DB836 #C4DE8F;
+}
+
+#entete .formulaire_menu_lang { position: absolute; right: 54px; top: 2px; display: block; margin:0;width: 223px;padding:0;background:none !important;border:0; } /*Cf.: spip_formulaires.css*/
+#entete .formulaire_menu_lang label {color:#ddd;}
+
+
+/*  ------------------------------------------
+/*  Sous-navigation et autres menus
+/*  ------------------------------------------ */
+/* Habillage general des menus de navigation */
+.menu p,.liste p { margin: 0.20em 0; padding: 0.20em 0; }
+
+/* menu */
+.menu-liste {
+	margin: 5px 0 8px;
+	padding: 0;
+	text-decoration: none;
+	border-top: 2px solid #D0E89F;
+	text-align: left;
+}
+.menu-liste .menu-entree {
+	list-style: none;
+	margin: 0;
+	padding: 7px 10px;
+	border-bottom: 1px solid #DAEBA3;
+	clear:both;
+	overflow:hidden;
+}
+* html body .menu-liste .menu-entree {
+	height: 1%;
+}
+.menu-liste .menu-entree a,
+.menu-liste .menu-entree a:visited {
+	text-decoration: none;
+	color: #684F3E;
+}
+.menu-liste .menu-entree a span {
+	color: #A98D76;
+	font-size: .9em;
+
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-weight: normal;
+}
+.menu-liste .menu-entree a:hover { color: #000;	background: none;}
+.menu-liste .menu-liste { margin:0;margin-left: 5px; padding: 0; }
+.menu-liste .menu-liste .menu-entree { background: none; }
+
+/* Liste d'items */
+.liste-items {
+	margin: 5px 0 8px;
+	padding: 0;
+	text-decoration: none;
+	border-top: 2px solid #D0E89F;
+	text-align: left;
+}
+.liste-items .item {
+	list-style: none;
+	margin: 0;
+	padding: 7px 10px;
+	border-bottom: 1px solid #DAEBA3;
+}
+* html body .liste-items .item {
+	height: 1%;
+}
+.liste-items .item a,
+.liste-items .item a:visited {
+	text-decoration: none;
+	color: #684F3E;
+}
+.liste-items .item a:hover { color: #000;	}
+
+/* Pagination */
+.pagination { clear: both; text-align: right; font-size: 0.90em; color: #666; }
+.pagination .on { font-weight: bold; color: #666; }
+
+
+/*  ------------------------------------------
+/* 	Typographie generale (style transversaux)
+/*  ------------------------------------------ */
+html { font-size: 100%; } /* Cf.: http://pompage.net/pompe/definir-des-tailles-de-polices-en-CSS/ */
+body {	
+	background: #f3ebe0 url(img/bg.gif) repeat-x;
+	font: 12px/170% 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #666666; 
+	text-align: center;
+}
+
+
+/* Couleurs des liens
+---------------------------------------------- */
+/* links */
+a, a:visited {	
+	color: #306495;
+	background: inherit;
+	text-decoration: none;
+}
+a:hover {
+	color: #73471B;
+	background: inherit;
+	text-decoration: underline;
+}
+
+/* Titraille / Intertitres */
+/* headers */
+h1,.h1, h2,.h2, h3,.h3 {
+	font-family: 'Trebuchet MS', 'Helvetica Neue', Arial, Sans-serif;
+	font-weight: Bold; 	
+	padding: 10px 0;		
+	color: #444;
+}
+h1,.h1 {
+	font-size: 2.2em;		
+}
+h2,.h2 {
+	font-size: 2em;
+	color: #88ac0b;
+}
+h3,.h3,h3.spip {
+	font-size: 1.4em;
+	font-weight: normal;	
+	padding: 16px 0 4px;
+	text-align:left; /*Cf.: spip_style.css*/
+}
+
+/* Divers */
+hr.spip {} /*Cf.: spip_style.css*/
+abbr,acronym {
+  cursor: help;
+  border-bottom: 1px dotted #895F30;
+}
+
+small,.small { font-size: 0.90em; color: #666; }
+
+/* Listes SPIP */
+ul, ol {
+	margin: 10px 0;
+	padding: 0 20px;
+}
+ul { list-style: none; }
+
+dl { padding: 10px; margin: 0; }
+
+dt {
+  font-weight: bold;
+  color: #79A62E;
+}
+dd {
+  padding-left: 25px; 
+}
+
+p { padding: 12px 0px;}
+
+ul.spip {} /*Cf.: spip_style.css*/
+ol.spip {} /*Cf.: spip_style.css*/
+
+/* Citations, code et poesie */
+/*Cf.: spip_style.css*/
+blockquote, blockquote.spip {
+	margin: 15px 0;
+ 	padding: 5px 7px;
+	padding-left : 40px;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 1.6em;
+	font-style: italic;
+	font-family: Georgia, 'Times New Roman', Times, serif;		
+	color: #80614D;
+	border: 1px solid #DFF4B5;
+	background: #F0FFD2 url(img/quote.gif) no-repeat 7px 10px;
+}
+blockquote.spip_poesie {
+	border-top:0;
+	border-right:0;
+	border-bottom:0;
+	font-style: normal;
+	background:none;
+} /*Cf.: spip_style.css*/
+
+.spip_code,code {
+  	font: 500 1em/1.5em 'Lucida Console', 'Courier New', monospace;
+  	/* white-space: pre; */
+}
+.spip_cadre {
+		margin: 5px 0;
+  	padding: 15px;
+  	text-align: left;
+  	display: block;
+  	overflow: auto;
+  	font: 500 1em/1.5em 'Lucida Console', 'Courier New', monospace ;
+  	/* white-space: pre; */
+  	border: 1px solid #deedae;
+		background: #F0FFD2;
+		width:90%;
+} /*Cf.: spip_style.css*/
+
+/* Tableaux */
+table.spip {} /*Cf.: spip_style.css*/
+/* start - table */
+table.spip {
+	border-collapse: collapse;
+	margin: 15px 0;
+}
+table.spip th {
+	height: 38px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #fff;
+	text-align: left;
+	background: #ADD163;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #C4DE8F #93C138 #93C138 #C4DE8F;
+}
+table.spip tr {
+	height: 34px;
+	background: #fff;
+}
+table.spip td {
+	padding-left: 11px;
+	padding-right: 11px;
+	border: 1px solid #E7F0CC;		
+}	
+/* end - table */
+
+/* Logos, documents et images */
+.spip_logos {} /*Cf.: spip_style.css*/
+.spip_documents {} /*Cf.: spip_style.css*/
+.spip_documents_center {} /*Cf.: spip_style.css*/
+.spip_documents_left {} /*Cf.: spip_style.css*/
+.spip_documents_right {} /*Cf.: spip_style.css*/
+.spip_doc_titre {} /*Cf.: spip_style.css*/
+.spip_doc_descriptif {} /*Cf.: spip_style.css*/
+
+/* images */
+.spip_documents img,.spip_logos {
+	background: #fafafa;
+	border: 1px solid #dcdcdc;
+	padding: 7px;
+}
+.spip_documents_left {
+  	margin: 5px 0px 10px;
+  	margin-right: 24px;
+}
+.spip_documents_right {
+  	margin: 5px 0px 10px;
+  	margin-left: 9px;
+  	margin-right: 15px;
+}
+
+
+/*  ------------------------------------------
+/*  Disposition a l'ecran des blocs principaux
+/*  ------------------------------------------ */
+body { margin: 0; padding: 0; text-align: center;	margin: 0; padding: 0; }
+
+#page {
+	position: relative;
+	width: 920px;
+	background: #edf8c7 url(img/wrap.gif) repeat-y center top;
+	margin: 35px auto;
+	text-align: left;	
+}
+
+#bloc-haut{
+	position: relative;
+	width: 920px;
+	color: #fff;
+}	
+#entete {	
+	position:relative;
+	width: 920px;
+	height: 205px;
+	background: #317cb1 url(img/header.gif) no-repeat;
+	color: #fff;	
+	padding: 0;	
+	margin: 0;
+}
+#entete #nom_site_spip {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: bold 56px 'Trebuchet MS', 'Helvetica Neue', Arial, Sans-serif;
+	letter-spacing: -3px;
+	text-decoration: none;
+	color: #fff;
+	
+	/* change the values of top and left to adjust the position of the logo*/
+	top: 58px; left: 55px;	
+}
+#entete #nom_site_spip a {color: #fff;}
+#entete .accueil img.spip_logos {
+	position: absolute;
+	/* change the values of top and left to adjust the position of the logo*/
+	right: 55px; bottom: 15px;
+}
+
+#entete #slogan_site_spip {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: bold 15px 'Trebuchet MS', 'Helvetica Neue', Arial, Sans-serif;
+	color: #D6EBAB;
+	letter-spacing: -0.5px;
+	
+	/* change the values of top and left to adjust the position of the slogan*/
+	top: 122px; left: 135px;		
+}
+
+#descriptif_site_spip {
+	margin: 0; padding: 0;
+	font: bold 15px 'Trebuchet MS', 'Helvetica Neue', Arial, Sans-serif;
+	color: #A98D76;
+	letter-spacing: -0.5px;
+}
+
+
+/* Navigation */
+#nav {
+	clear: both;	
+	padding: 0;	margin: 0;
+	width: 920px;
+	height: 50px;
+	background: #0e609e url(img/nav.gif) no-repeat;
+	overflow:hidden;
+}
+#nav .menu-liste {
+	float: left;
+	list-style: none;	
+	margin: 0;
+	padding:0;
+	padding-left:40px;
+	height: 50px;
+	border:none;
+}
+#nav .menu-liste .menu-entree {
+	display: inline;
+	margin: 0; padding: 0;
+	border:none;
+}
+#nav .menu-liste .menu-entree a {
+	display: block;
+	float: left;
+	width: auto;
+	margin: 0;
+	padding: 0 14px;
+	color: #fff;
+	font: bold 16px/50px 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
+	text-decoration: none;	
+	letter-spacing: -0.5px;
+}
+#nav .menu-liste .menu-entree a:hover,
+#nav .menu-liste .menu-entree a:active {
+	color: #edf8c7;	
+}
+#nav .menu-liste .menu-entree.on {
+}
+#nav .menu-liste .menu-entree.on a {
+	background: #0c4e80 url(img/pointer.gif) no-repeat center bottom;
+	color: #93DAFF;
+}
+
+#bloc-central{
+	clear: both;
+	position: relative;
+	clear: both;
+	float: left;	
+	width: 920px;	
+	padding: 25px 0; 	
+	background: #edf8c7 url(img/content.gif) repeat-y;
+}
+#conteneur { 	}
+#contenu {
+	float:left;width:505px;padding-left:55px;
+}
+
+
+#navigation { 
+	float: right;
+	width: 250px;
+	padding: 0;
+	padding-right: 55px;
+}
+#extra { clear:right;float: right; width:250px; margin-top: 5px; padding-right:55px; overflow: hidden; }
+
+#navigation .h2,#extra .h2,
+#navigation .formulaire_recherche label {
+	color: #115280; 
+	font: normal 1.6em 'Trebuchet MS', 'Helvetica Neue', Arial, Sans-serif;
+	text-transform: none;
+	padding: 10px 0 2px;
+	padding-left: 8px;
+	margin: 10px 0 0;
+}
+/* header quick search */
+.formulaire_recherche {
+	background-color: transparent;
+	border: none;	
+	margin: 0;
+	padding: 10px 0;
+}
+.formulaire_recherche  input.text {
+	height: 18px;
+	padding: 2px;	
+	vertical-align: top;
+	width: 250px;
+}
+#formulaire_recherche  input.text {
+	width: 180px;
+}
+
+.formulaire_recherche  input.submit{
+	font: bold 12px Arial, Sans-serif; 
+	margin: 0;
+	color: #fff;
+	background: #A6CD56;
+	border-width: 1px;
+ 	border-style: solid;
+ 	border-color: #C4DE8F #8DB836 #8DB836 #C4DE8F;
+	height: 24px;
+	padding: 2px 4px;
+	vertical-align: top;
+}
+#formulaire_recherche  input.submit{
+	width: 60px;
+}
+
+#bloc-bas {
+	clear: both;
+	width: 920px;
+	text-align: left;
+	padding: 0;	margin: 0 auto;
+	background:  url(img/footer-bottom.gif) no-repeat left bottom;
+}
+#pied {
+	background: url(img/footer-top-sep.gif) no-repeat;
+	padding: 30px 40px 55px;
+}
+#pied .liens {
+	clear: both;
+	color: #555;	
+	margin: 0 auto; 
+	width: 840px;
+	padding: 15px 0 10px;
+	text-align: center;	
+	font-size: 0.95em;
+}
+
+#pied a {background:none;}
+#pied a:hover {
+	color: #555; 
+	border-bottom: 1px dotted #555;
+	text-decoration: none;
+}
+
+
+/*  ------------------------------------------
+/*  Habillage des elements du contenu
+/*  ------------------------------------------ */
+/* main column */
+.liste h2, .menu .h2 {
+	font: bold 2.25em 'Trebuchet MS', 'Helvetica Neue', Arial, Sans-serif;
+	color: #115280;
+	padding: 10px 0 2px;
+	margin-bottom:0;
+	padding-left: 8px;
+	letter-spacing: -1px;
+	/*border-bottom: 1px solid #D2E9A4;*/
+}
+#contenu h2 a,#contenu .h2 a {
+	color: #115280;
+	text-decoration: none;		
+}
+#contenu ul.spip li {
+	list-style-image: url(img/bullet.gif);
+}
+
+#hierarchie { clear: both; margin-bottom: 2em; font-size: 0.90em; }
+#hierarchie, #hierarchie a { color: #666; }
+
+.cartouche { margin-bottom: 2em; }
+.cartouche .spip_logos { float: right; margin-left: 16px; margin-bottom: 4px; }
+.cartouche .small { margin: 0; padding: 0; clear: left; }
+.surtitre, .soustitre { font-size: 0.90em; color: #666; text-transform: uppercase; letter-spacing: 0.10em; }
+.cartouche .surtitre { margin-bottom: 0.30em; }
+.cartouche .soustitre { margin-top: 0.50em; margin-bottom: 0.30em; }
+.cartouche .traductions { font-size: 0.90em; }
+.chapo { margin-bottom: 1.50em; line-height: 1.40em; font-weight: bold; color: #A98D76; }
+.texte { line-height: 1.60em; }
+.hyperlien { display: block; background: #EEE; padding: 0.50em 1em; font-weight: bold; }
+.ps, .notes { margin-bottom: 2em; line-height: 1.40em; }
+.notes { clear: both; font-size: 0.90em; }
+
+abbr.published { border: 0; }
+
+/* Portfolio */
+.documents_portfolio { clear: both; margin: 2em auto; text-align: center; }
+.documents_portfolio .spip_logos { margin: 6px 3px 0 3px; padding: 4px; border: 1px solid #DDD; }
+.documents_portfolio a:hover .spip_logos { border-color: #F57900; }
+.documents_portfolio a.on .spip_logos { border-color: #8B6F92; }
+#document_actif { margin: 1em auto; }
+#document_actif img { padding: 4px; border: 1px solid #DDD; }
+
+
+/* Habillage des forums
+---------------------------------------------- */
+.repondre { clear: both; margin-top: 0em; margin-right: 1em; text-align: right; font-weight: bold; }
+
+/* * Habillage des forums */
+ul.forum { display: block; clear: both; margin: 0; padding: 0; }
+ul.forum, ul.forum ul { list-style: none; }
+/*
+.forum-fil { margin-top: 1.50em; }
+.forum-fil ul { display: block; margin: 0; padding: 0; margin-left: 1em; }
+.forum-chapo .forum-titre, .forum-chapo .forum-titre a { display: block; margin: 0; padding: 0; font-weight: bold; color: #333; }
+.forum-texte { margin: 0; padding: 0.50em 1em; color: #333; }
+.forum-texte .hyperlien {}
+.forum-texte .repondre { margin: 0; padding: 0.10em 0; text-align: right; }
+
+/* Boite d'un forum : eclaircissement progressif des bords * /
+ul .forum-message { border: 1px solid #666; margin: 0; padding: 0; margin-bottom: 1em; }
+ul ul .forum-message { border: 1px solid #A4A4A4; }
+ul ul ul .forum-message { border: 1px solid #B8B8B8; }
+ul ul ul ul .forum-message { border: 1px solid #CCC; }
+ul ul ul ul ul .forum-message { border: 1px solid #E0E0E0; }
+ul ul ul ul ul ul .forum-message { border: 1px dotted #E0E0E0; }
+
+/* Boite de titre d'un forum : mise en couleur selon la profondeur du forum * /
+ul .forum-chapo { border: 0; border-bottom: 1px dotted #B8B8B8; margin: 0; padding: 3px 6px 2px 6px; background: #C4E0E0; }
+ul ul .forum-chapo { background: #D4E8E8; }
+ul ul ul .forum-chapo { background: #E4F0F0; }
+ul ul ul ul .forum-chapo { background: #F4F8F8; border-bottom: 1px dotted #E0E0E0; }
+ul ul ul ul ul .forum-chapo { background: #FFF; }
+*/
+
+/* comments list */
+ul.forum,ul.forum ul {
+	margin: 12px 10px;
+	padding: 0;
+	border-style: solid;	
+	border-color: #D2E9A4;	
+	border-width: 1px 1px 0 1px;
+}
+ul.forum ul { margin:0; }
+ul.forum ul.spip {border:none;margin-left:20px;}
+.forum li {
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+	border-bottom: 1px solid #D2E9A4; 
+}
+ul.forum ul.spip li {border:none;padding:0;}
+.forum li cite {
+	display: block;
+	font-style: normal;
+	font-weight: bold;
+	padding: 7px;	
+}
+.forum li cite img {
+	float: left;
+	margin-right: 10px;	
+}
+.forum li cite .forum-chapo {
+	font-size: .8em;
+	font-weight: normal;
+}
+.forum li .forum-texte {
+	clear: both;
+	margin: 0; padding: 0;
+}
+.forum li.alt {
+	background: #f8f8f8 
+}
+
+
+/* Listes d'articles et extraits introductifs */
+.articles .liste-items .item { clear: both;}
+.articles .liste-items .item .h3 {margin-top:0;margin-bottom:10px;}
+.articles .liste-items .spip_logos { float: right; clear: right; margin: 0 0 4px 16px; }
+.articles .liste-items .introduction { margin-top: 0.30em; line-height: 1.40em; }
+
+.info-publi { font-size: .95em; padding: 0; margin-left: 1px; color: #A98D76; }
+.info-publi a, .info-publi a:visited { color: #333; }
+.h3 + .info-publi {margin-top:-10px;}
+
+.meta-publi {
+	clear:both;
+	padding: 8px 5px;
+	margin: 5px 0 10px;
+	color: #A2745D;
+	border: 1px solid #deedae;
+	background: #F0FFD2;
+}
+.meta-publi .date-redac { margin: 0 10px 0 5px;	}
+.meta-publi .nb_commentaires { margin: 0 10px 0 5px;	}
+.meta-publi .lire-la-suite { margin: 0 10px 0 5px;	}
+
+
+
+/*  ------------------------------------------
+/*  Autres supports
+/*  ------------------------------------------ */
+
+/* Affichage pour les petits ecrans (type 400 x 300) */
+/*
+@media handheld, only screen and (max-device-width: 481px), only and (max-device-width: 400px), only and (max-width: 400px) {
+div#page, div#conteneur, div#navigation, div#extra { width: auto; }
+}*/

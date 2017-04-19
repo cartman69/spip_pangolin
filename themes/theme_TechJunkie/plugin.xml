@@ -1,0 +1,21 @@
+<plugin>
+   <nom>TechJunkie</nom>
+	<auteur>[styleshout->www.styleshout.com], [adapt&#233; pour Zpip par C&#233;dric Morin (yterium.com)->http://www.yterium.com]</auteur>
+   <version>1.1.0</version>
+	<licence>Creative Commons Attribution 2.5</licence>
+	<slogan><multi>
+		[fr]Th&#232;me Z bleu et vert clair, 2 colonnes
+		[en]Blue and light green, 2 columns Z template
+	</multi></slogan>
+	<description><multi>
+  		[en]Features a clean and modern design. Ideal for blogs and small websites. It has a 2 columns, fixed-width layout and uses a combination of blue, light green and muted colors.
+		[fr]Un design clair et moderne, id&#233;al pour un blog ou un site simple. En largeur fixe et 2 colonnes, sur une combinaison de bleu et de vert clair.
+	</multi></description>
+	<lien>http://www.spip-contrib.net/TechJunkie</lien>
+	<icon>vignette.jpg</icon>
+   <etat>stable</etat>
+   <prefix>theme_techjunkie</prefix>
+	<necessite id="SPIP" version="[2.0.10;3.0.99]" />
+	<utilise id="Z" version="[1.2.0;]" />
+	<categorie>theme</categorie>
+</plugin>

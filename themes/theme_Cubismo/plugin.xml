@@ -1,0 +1,21 @@
+<plugin>
+   <nom>Cubismo</nom>
+	<auteur>[Color Light Studio->http://colorlightstudio.com/2007/11/20/cubismo/], [adapt&#233; pour Zpip par Val&#233;ry-Xavier Lentz->http://www.valeryxavierlentz.eu]</auteur>
+   <version>1.0.0</version>
+	<licence>Creative Commons Attribution 2.5</licence>
+	<slogan><multi>
+	[en]Clean and simple two column Z template
+	[fr]Th&#232;me Z propre et simple en deux colonnes
+	</multi></slogan>
+	<description><multi>
+	[en]Cubismo is clean and simple two column template adapted from [Wordpress Cubismo->http://colorlightstudio.com/2007/11/20/cubismo/].
+	[fr]Cubismo est un th&#232;me propre et simple en deux colonnes adapté du th&#232;me [Wordpress Cubismo->http://colorlightstudio.com/2007/11/20/cubismo/].
+	</multi></description>
+	<lien>http://www.spip-contrib.net/Cubismo</lien>
+	<icon>vignette.png</icon>
+   <etat>stable</etat>
+   <prefix>theme_cubismo</prefix>
+	<necessite id="SPIP" version="[2.0.10;3.0.99]" />
+	<utilise id="Z" version="[1.2.0;]" />
+	<categorie>theme</categorie>
+</plugin>

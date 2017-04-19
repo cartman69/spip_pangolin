@@ -1,0 +1,700 @@
+/*
+Template Design by TheWebhub.com
+http://www.thewebhub.com
+Released for free under a Creative Commons Attribution-Share Alike 3.0 Philippines
+*/
+
+/** Common Styles */
+
+body {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	height: 100%;
+	width: 100%;
+	background-color: #FFFFFF;
+	background-image: url(img/bg_main.gif);
+	background-repeat: repeat-x;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+
+h1, h2, h3 {
+	padding: 0;
+	margin: 0;
+	text-transform: lowercase;
+	color: #005880;
+}
+
+p, ul, ol {
+	line-height: 19px;
+	color: #666666;
+	margin: 0 0 20px 25px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0;
+}
+
+/*  ------------------------------------------
+/* 	Typographie generale (style transversaux)
+/*  ------------------------------------------ */
+
+/* Couleurs des liens */
+
+a:link, a:visited { 
+	text-decoration: none;
+	color: #006AC3;
+	border-bottom: 1px dotted #006AC3;
+	padding: 2px 2px 2px 2px;
+}
+a:hover {
+	text-decoration: none;
+	border-bottom: 1px solid #006AC3;
+}
+
+
+/* Titraille / Intertitres */
+h1,.h1, h2,.h2, h3,.h3, h4,.h4 {
+	
+}
+h1,.h1 { font-size: 22px;
+	color: #666666;
+	margin: 0 0 0 0;
+	padding: 0px 0 20px 25px;
+	background-image: url(img/h1_arrow.gif);
+	background-repeat: no-repeat;
+	background-position: 5px 7px;
+	line-height: 24px; }
+h2,.h2 { font-size: 16px;
+	color: #006AC3;
+	padding: 5px 0 5px 25px;
+	letter-spacing: 1px;
+	text-transform: uppercase; }
+h3,.h3 { font-size: 14px;
+	color: #006AC3;
+	padding: 5px 0 0px 25px;
+	text-transform: uppercase;
+	letter-spacing: -0.5px;}
+h4,.h4 { font-size: 14px;
+	color: #006AC3;
+	text-transform: uppercase;
+	letter-spacing: -0.5px; }
+h3.spip {} /*Cf.: spip_style.css*/
+
+/* Divers */
+hr.spip {} /*Cf.: spip_style.css*/
+abbr,acronym {
+  cursor: help;
+  border-bottom: 1px dotted #005880;
+}
+
+.small { font-size: 0.90em; color: #005880; }
+
+/* Listes SPIP */
+ul, ol {
+	margin: 10px 20px;
+	padding: 0 20px;
+}
+ul { list-style: disc; }
+ol { list-style: decimal; }
+
+dt {
+  font-weight: bold;
+  color: #005880;
+}
+dd {
+  padding-left: 25px; 
+}
+
+p, dl { padding: 10px 0px; }
+ul.spip {} /*Cf.: spip_style.css*/
+ol.spip {} /*Cf.: spip_style.css*/
+
+/* Citations, code et poesie */
+blockquote.spip {} /*Cf.: spip_style.css*/
+blockquote.spip {
+	border-top: 1px solid #E5E5E5;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #E5E5E5;
+	padding: 15px 15px 15px 65px;
+	background-image: url(img/bg_quote.gif);
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	color: #0066CC;
+	font-style: italic;
+}
+blockquote.spip_poesie {	margin: 10px;
+	border-top: 1px solid #E5E5E5;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #E5E5E5;
+	padding: 15px 15px 15px 65px;
+	background-image: url(img/bg_quote.gif);
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	color: #0066CC;
+	font-style: italic;
+} /*Cf.: spip_style.css*/
+
+.spip_code {} /*Cf.: spip_style.css*/
+.spip_code {
+	margin: 3px 0;
+	font: 500 1em/1.5em 'Lucida Console', 'Courier New', Monospace ;
+	/* white-space: pre; */
+}
+.spip_cadre {
+	margin: 3px 0;
+	padding: 15px;
+	text-align: left;
+	display: block;
+	overflow: auto;  
+	font: 500 1em/1.5em 'Lucida Console', 'Courier New', Monospace ;
+	/* white-space: pre; */
+	border: 1px solid #F0F0F0;
+	background: #f8f8f8;
+	width:90%;
+} /*Cf.: spip_style.css*/
+
+/* Tableaux */
+
+caption {
+	margin: 10px;
+}
+table.spip {} /*Cf.: spip_style.css*/
+table.spip {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 10px 0;
+}
+table.spip tr { background: #fff; }
+table.spip tr.row_odd { background: #F9F9F9;	}
+table.spip th,table.spip td {
+	text-align: left;			
+	border-width: 1px;
+	border-style: solid;
+}
+table.spip th {
+	color: #ffffff;
+	background: #005880;
+	padding: .8em 1em;	
+	border-color: #EFEFEF;
+}
+table.spip td {
+	border-color: #EFEFEF;	
+	padding: .7em 1em;	
+}
+
+	
+/* end - table */
+
+/* Logos, documents et img */
+.spip_logos {} /*Cf.: spip_style.css*/
+.spip_documents {} /*Cf.: spip_style.css*/
+.spip_documents_center {} /*Cf.: spip_style.css*/
+.spip_documents_left {} /*Cf.: spip_style.css*/
+.spip_documents_right {} /*Cf.: spip_style.css*/
+.spip_doc_titre {} /*Cf.: spip_style.css*/
+.spip_doc_descriptif {} /*Cf.: spip_style.css*/
+/* img */
+.spip_documents img,.spip_logos img {
+	background-color: #E7F1FF;
+	padding: 4px;
+	border: 1px solid #006AC3;
+}
+.spip_documents_left {
+  	float: left;
+	margin: 0 15px 5px 0px;
+}
+.spip_documents_right {
+  	float: right;
+	margin: 0 0 5px 15px;
+}
+
+
+
+/** Style de la div entete */
+
+#entete {
+	width: 670px;
+	height: 85px;
+	padding: 20px 40px 0px 40px;
+	background-image: url(img/bg_header.gif);
+	line-height: 85px;
+	font-size:28px;
+	font-weight:bold;
+}
+
+#entete .accueil {
+	
+	
+	
+}
+
+#entete .accueil #nom_site_spip {
+	float: left;
+}
+
+#entete .accueil #nom_site_spip a {
+color: #006AC3;
+}
+
+#entete #slogan_site_spip {
+	float: right;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: italic;
+	padding-right: 10px;
+	color: #006AC3;
+}
+
+#entete .accueil img.spip_logos { 	
+	display:none;
+
+}
+
+
+
+#entete .formulaire_menu_lang {
+	float:right;
+	font-size:12px;
+	line-height:14px;
+	width:200px;
+	margin-top:120px;
+	margin-left:270px;
+	position: absolute;
+	z-index: 100;
+}
+
+#entete .formulaire_menu_lang label {
+	text-align: center;
+	display: inline;
+	clear:none;
+	width: 200px;
+}
+
+#entete select {display:inline; float:right;}
+
+/** Style de la div nav */
+#container-eyecatcher {
+	width: 670px;
+	padding: 0px 40px 0px 40px;
+	height: 175px;	
+	background-image: url(img/bg_eyecatcher.gif);
+}
+
+#nav {
+	width: 670px;
+	background-color: #45AAFF;
+	height: 22px;
+	border-bottom: 1px solid #ffffff;
+}
+
+#nav ul.menu-liste {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+#nav ul.menu-liste li.menu-entree {
+	display: inline;
+	list-style: none;
+	height: 22px;
+}
+
+#nav ul.menu-liste li.menu-entree a  {
+	color: #ffffff;
+	line-height: 22px;
+	font-size: 11px;
+	text-decoration: none;
+	padding: 5px 15px 6px 15px;
+	border-right: 1px solid #ffffff;
+}
+
+#nav ul.menu-liste li.on  {
+	color: #D7D7BD;
+}
+
+#nav ul.menu-liste li.menu-entree a:hover  {
+	text-decoration: underline;
+	background-color: #0066CC;
+}
+
+#nav .menu-entree .menu-liste{
+display:none;
+}
+
+/** Style de la div page */
+
+#page {
+	width: 750px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+}
+
+/** Style de la div conteneur */
+
+#conteneur {
+	width:670px;
+	background-image: url(img/bg_content.gif);
+	background-repeat: no-repeat;
+	padding: 20px 40px 0px 40px;
+	margin: 0 0 0 0;
+	height: auto;
+}
+
+
+
+#conteneur p {text-align:justify;
+}
+
+/* Style de la div contenu */
+
+#contenu {
+	width: 430px;
+	float: left;
+}
+
+#descriptif_site_spip {
+	color:#000000;
+	font-size:17px;
+	font-style:italic;
+	font-weight:normal;
+	letter-spacing:-0.5px;
+	line-height:1.6em;
+	margin:0pt;
+	padding : 0 ;
+}
+
+#contenu ul.liste-items {
+	
+	margin: 0px;
+	padding: 0;
+}
+
+#contenu li.item {
+	list-style: none;
+	line-height: 20px;
+	color: #666666;
+	
+}
+
+.info-publi {margin-left: 25px;}
+
+.introduction {margin-left: 25px;}
+
+.introduction p {margin-left:0}
+
+.meta-publi {margin-left: 25px;}
+
+#contenu .h2 {
+	text-align: left;
+	clear: both;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#contenu .h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: left;
+	clear: both;
+}
+
+#contenu .entry-title{
+	clear:none;
+}
+
+.spip_logos { 	
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+
+}
+
+#contenu a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #006AC3;
+	padding: 2px 2px 2px 2px;
+}
+
+/* éléments de contenu */
+
+#hierarchie { clear: both; margin-bottom: 2em; font-size: 0.90em; }
+#hierarchie, #hierarchie a { color: #666; }
+
+.cartouche { margin-bottom: 2em; margin-left: 25px;}
+.cartouche .spip_logos {float: right; margin-left: 16px; margin-bottom: 4px; }
+.cartouche p { margin: 0; padding: 0; clear: left; }
+.surtitre, .soustitre { font-size: 0.90em; color: #666; text-transform: uppercase; letter-spacing: 0.10em; }
+.cartouche .surtitre { margin-bottom: 0.30em; }
+.cartouche .soustitre { margin-top: 0.50em; margin-bottom: 0.30em; }
+.cartouche .traductions { font-size: 0.90em; }
+
+.chapo { margin-bottom: 1.50em; line-height: 1.40em; font-weight: bold; color: #005880; }
+.texte { line-height: 1.60em; }
+.hyperlien { display: block; background: #EEE; padding: 0.50em 1em; font-weight: bold; color: #005880; }
+.ps, .notes { margin-bottom: 2em; line-height: 1.40em; }
+.notes { clear: both; font-size: 0.90em; }
+
+abbr.published { border: 0; }
+
+/* Portfolio */
+.documents_portfolio { clear: both; margin: 2em auto; text-align: center; }
+.documents_portfolio .spip_logos { margin: 6px 3px 0 3px; padding: 4px; border: 1px solid #DDD; }
+.documents_portfolio a:hover .spip_logos { border-color: #F57900; }
+.documents_portfolio a.on .spip_logos { border-color: #8B6F92; }
+#document_actif { margin: 1em auto; }
+#document_actif img { padding: 4px; border: 1px solid #DDD; }
+
+/* Habillage des forums
+---------------------------------------------- */
+.repondre { clear: both; margin-top: 0em; margin-right: 1em; text-align: right; font-weight: bold; }
+
+/* * Habillage des forums */
+ul.forum { display: block; clear: both; margin: 0; padding: 0; }
+ul.forum, ul.forum ul { list-style: none; }
+/*
+.forum-fil { margin-top: 1.50em; }
+.forum-fil ul { display: block; margin: 0; padding: 0; margin-left: 1em; }
+.forum-chapo .forum-titre, .forum-chapo .forum-titre a { display: block; margin: 0; padding: 0; font-weight: bold; color: #333; }
+.forum-texte { margin: 0; padding: 0.50em 1em; color: #333; }
+.forum-texte .hyperlien {}
+.forum-texte .repondre { margin: 0; padding: 0.10em 0; text-align: right; }
+
+/* Boite d'un forum : eclaircissement progressif des bords * /
+ul .forum-message { border: 1px solid #666; margin: 0; padding: 0; margin-bottom: 1em; }
+ul ul .forum-message { border: 1px solid #A4A4A4; }
+ul ul ul .forum-message { border: 1px solid #B8B8B8; }
+ul ul ul ul .forum-message { border: 1px solid #CCC; }
+ul ul ul ul ul .forum-message { border: 1px solid #E0E0E0; }
+ul ul ul ul ul ul .forum-message { border: 1px dotted #E0E0E0; }
+
+/* Boite de titre d'un forum : mise en couleur selon la profondeur du forum * /
+ul .forum-chapo { border: 0; border-bottom: 1px dotted #B8B8B8; margin: 0; padding: 3px 6px 2px 6px; background: #C4E0E0; }
+ul ul .forum-chapo { background: #D4E8E8; }
+ul ul ul .forum-chapo { background: #E4F0F0; }
+ul ul ul ul .forum-chapo { background: #F4F8F8; border-bottom: 1px dotted #E0E0E0; }
+ul ul ul ul ul .forum-chapo { background: #FFF; }
+*/
+
+
+/* comments list */
+ul.forum,ul.forum ul {
+	margin: 12px 10px;
+	padding: 0;
+	border-style: solid;	
+	border-color: #F0F0F0;	
+	border-width: 1px 1px 0 1px;
+}
+ul.forum ul { margin:0; }
+.forum li {
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+	border-bottom: 1px solid #F0F0F0; 
+}
+.forum li cite {
+	display: block;
+	font-style: normal;
+	font-weight: bold;
+	padding: 7px;	
+}
+.forum li cite img {
+	float: left;
+	margin-right: 10px;	
+}
+.forum li cite .forum-chapo {
+	font-size: .8em;
+	font-weight: normal;
+}
+.forum li .forum-texte {
+	clear: both;
+	margin: 0; padding: 0;
+}
+.forum li.alt {
+	background: #f8f8f8 
+}
+
+
+/* Habillage des petitions
+---------------------------------------------- */
+#signatures { clear: both; margin: 0 0 2em 0; padding: 0; background: none; }
+#signatures table { width: 100%; margin: 1em 0 0 0; }
+#signatures thead { text-align: center; color: #555; }
+#signatures td { padding: 0.50em; border: 2px solid #FEFEFE; vertical-align: top; }
+#signatures td.signature-date { background: #E4F0F0; text-align: center; white-space: nowrap; }
+#signatures td.signature-nom { background: #ECF4F4; text-align: center; }
+#signatures td.signature-nom small { display: block; }
+#signatures td.signature-message { background: #F4F8F8; }
+#signatures .formulaire_recherche { margin: 1em 0; text-align: right; } /*Cf.: spip_formulaires.css*/
+#signatures .formulaire_recherche input.text { width: 10em; text-align: left; } /*Cf.: spip_formulaires.css*/
+
+/* Pagination */
+.pagination { clear: both; text-align: right; font-size: 0.90em; color: #666; }
+.pagination .on { font-weight: bold; color: #666; }
+
+/* style de la div navigation */
+
+#navigation {
+	width: 170px;
+	margin-left: 480px;
+	margin-bottom:20px;
+	
+}
+
+
+#navigation ul {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 15px 0px;
+	background-image: none;
+}
+
+#navigation li {
+	list-style: none;
+	padding: 2px 0px 2px 10px;
+	margin: 0px 0px 5px 0px;
+}
+
+#navigation li a {
+	text-decoration: none;
+	color: #006AC3;
+	border-bottom: 1px dotted #006AC3;
+}
+
+#navigation li a:hover {
+	text-decoration: none;
+	border-bottom: 1px solid #006AC3;
+}
+
+#navigation .menu {margin: 0;}
+
+#navigation h2 {
+	margin: 0;
+	padding:0;}
+
+.formulaire_spip {
+	display: inline;
+	margin:0;
+	padding:0;
+}
+
+.formulaire_inscription {
+	width:100px;
+	margin:0;
+	padding:0;
+	margin-top: 10px;
+}
+
+#nom_inscription {
+	width: 100%;
+} 
+
+#mail_inscription {
+	width: 100%;
+} 
+
+#navigation .explication {
+	text-align: justify;}
+
+#navigation legend {
+	text-transform: uppercase;
+	color: #005880;
+}
+
+/* style de la div extra */
+
+#extra {
+	width: 170px;
+	margin-left: 480px;
+	padding:0;
+}
+
+#extra a, #extra a:hover {
+	border: none;
+}
+
+#extra h2 {
+	margin: 0;
+	padding:0;}
+
+#extra p {
+	line-height: 17px;
+	font-size: 11px;
+	color: #666666;
+	margin: 0 0 15px 10px;
+}
+
+#extra ul {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	background-image: none;
+}
+
+#extra li {
+	list-style: none;
+	background-image: url(img/li_cube.gif);
+	background-repeat: no-repeat;
+	background-position: 2px 6px;
+	padding: 2px 0px 2px 15px;
+	margin: 0 0 5px 0px;
+}
+
+#extra #formulaire_inscription {display:block; clear: none; float: left; margin: 10px 0 10px 0; padding: 0;}
+#extra #formulaire_inscription form {margin: 0; padding: 0;}
+#extra #formulaire_inscription legend {margin: 0; padding: 0;}
+#extra #formulaire_inscription p {margin: 0; padding: 0;}
+#extra #formulaire_inscription input {margin: 0; padding: 0;}
+
+
+
+
+
+
+/** Style de la div pied*/
+
+#pied {
+	border-top: 4px solid #E5E5E5;
+	width: 670px;
+	padding: 10px 0px 20px 0px;
+	margin: 0 40px 0px 40px;
+	clear: both;
+	color: #aeaeae;
+}
+
+#footer {
+	font-size: 11px;
+	color: #aeaeae;
+	width: 670px;
+	margin-bottom: 20px;
+}
+
+#footer-copyright {
+	float: left;
+	width: 325px;
+	padding-left: 10px;
+}
+
+#footer-meta {
+	float: right;
+	text-align: right;
+	width: 325px;
+	padding-right: 10px;
+}
+
+#pied a {
+	text-decoration: none;
+	border: none;
+	font-weight: bold;
+	padding: 2px 2px 2px 2px;
+	color: #aeaeae;
+}
+
+#pied #container-footer a:hover {
+	color: #006AC3;
+}
+
+

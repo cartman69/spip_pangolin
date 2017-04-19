@@ -1,0 +1,15 @@
+<plugin>
+	<nom>Welsh 3 colonnes</nom>
+	<auteur>[Kozlika->http://themes.dotaddict.org/galerie-dc2/details/Welsh-2-0], adapt&#233; pour Zpip par [Val&#233;ry-Xavier Lentz->http://www.valeryxavierlentz.eu]</auteur>
+	<licence>GPL</licence>
+   <version>2.0.0</version>
+	<slogan>Fond clair, 3 colonnes</slogan>
+	<description>Welsh 2.0 est un th&#232;me sur fond clair, de largeur fluide et disposant d'un menu par onglets</description>
+	<lien>http://www.spip-contrib.net/Welsh-2-0</lien>
+   <icon>vignette.jpg</icon>
+   <etat>stable</etat>
+	<necessite id="SPIP" version="[2.0.10;3.0.99]" />
+	<utilise id="Z" version="[1.2.0;]" />
+   <prefix>theme_welsh2_3col</prefix>
+	<categorie>theme</categorie>
+</plugin>

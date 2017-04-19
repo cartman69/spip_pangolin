@@ -1,0 +1,20 @@
+<plugin>
+	<nom>Tr&#232;fle</nom>
+	<auteur>Phil</auteur>
+	<licence>chocolat ware</licence>
+   <version>1.0.0</version>
+	<slogan><multi>
+		[fr]Th&#232;me Z tr&#232;s fleu !
+		[en]A very flew Z template
+	</multi></slogan>
+	<description><multi>
+		[fr]Un th&#232;me simple, avec un tr&#232;fle &#224; 3 feuilles, en largeur fixe et 1 colonne principale et une colonne des rubriques.
+		[en]A simple theme with a 3 leaf clover, in fixed width and a main column and a column for sections.
+	</multi></description>
+   <icon>vignette.jpg</icon>
+   <etat>stable</etat>
+	<necessite id="SPIP" version="[2.0.10;3.0.99]" />
+	<utilise id="Z" version="[1.2.0;]" />
+   <prefix>theme_trefle</prefix>
+	<categorie>theme</categorie>
+</plugin>

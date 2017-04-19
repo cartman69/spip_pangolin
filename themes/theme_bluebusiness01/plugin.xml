@@ -1,0 +1,15 @@
+<plugin>
+	<nom>bluebusiness01</nom>
+	<auteur>[Openwebdesign->http://www.openwebdesign.org], [adapt&#233; pour Zpip par Yves Costiou->http://latelier2point0.fr]</auteur>
+	<licence>Creative Commons Attribution 2.5</licence>
+   <version>1.0.0</version>
+	<slogan>Th&#232;me Z Corporate en 2 colonnes</slogan>
+	<description>Un th&#232;me Corporate en 2 colonnes dans les tons blanc/bleu.</description>
+	<icon>vignette.jpg</icon>
+  	<etat>stable</etat>
+  	<prefix>theme_bluebusiness</prefix>
+	<lien>http://www.spip-contrib.net/bluebusiness01</lien>
+	<necessite id="SPIP" version="[2.0.10;3.0.99]" />
+	<utilise id="Z" version="[1.2.0;]" />
+	<categorie>theme</categorie>
+</plugin>

@@ -1,0 +1,530 @@
+/* --------------------------------------------------------- */
+/* Feuille de style des squelettes par defaut pour SPIP 2.0  */
+/* --------------------------------------------------------- */
+/* ----------------------------------------------
+	Adaptation pour Spip-zen : Cedric Morin http://www.yterium.com
+ ------------------------------------------------ */
+
+/* Specificites SPIP */
+h3.spip {text-align:left;}
+
+
+#hierarchie { clear: both; margin-bottom: 2em; font-size: 0.90em; }
+#hierarchie, #hierarchie a { color: #666; }
+
+.cartouche { margin-bottom: 2em; }
+.cartouche .spip_logos { float: right; margin-left: 16px; margin-bottom: 4px; }
+.cartouche .info-publi { font-size: .95em;	margin-top: 0; clear: left; }
+.cartouche .h3+.info-publi {margin-top:-0.3em;}
+
+.surtitre, .soustitre { font-size: 0.90em; color: #666; text-transform: uppercase; letter-spacing: 0.10em; }
+.cartouche .surtitre { margin-bottom: 0.30em; }
+.cartouche .soustitre { margin-top: 0.50em; margin-bottom: 0.30em; }
+.cartouche .traductions { font-size: 0.90em; }
+
+.chapo { margin-bottom: 1.50em; line-height: 1.40em; font-weight: bold; color: #669; }
+.texte { line-height: 1.60em; }
+.hyperlien { display: block; background: #F4F8FD; padding: 0.50em 1em; font-weight: bold; }
+.ps, .notes { margin-bottom: 2em; line-height: 1.40em; }
+.notes { clear: both; font-size: 0.90em; }
+
+abbr.published { border: 0; }
+
+/* Portfolio */
+.documents_portfolio { clear: both; margin: 2em auto; text-align: center; }
+.documents_portfolio .spip_logos { margin: 6px 3px 0 3px; padding: 4px; border: 1px solid #DDD; }
+.documents_portfolio a:hover .spip_logos { border-color: #F57900; }
+.documents_portfolio a.on .spip_logos { border-color: #8B6F92; }
+#document_actif { margin: 1em auto; }
+#document_actif img { padding: 4px; border: 1px solid #DDD; }
+
+.formulaire_recherche { margin-bottom: 2em; } /*Cf.: spip_formulaires.css*/
+
+.menu-liste, .liste-items  {list-style:none;}
+
+.liste-items {border-bottom:1px solid #D2E8F7;}
+.liste-items .item {padding:5px;clear:both;overflow:hidden;border-top:1px solid #D2E8F7;}
+
+.menu-liste {
+	list-style: none;
+	text-align: left;
+	margin: 7px 0px 8px;
+	padding: 0;
+	text-decoration: none;
+	border-top: 1px solid #A9D4EF;
+}
+.menu-liste .menu-entree {
+	list-style: none;
+	padding: 4px 5px;
+	margin: 0 2px;
+	color: #777;
+	border-bottom: 1px solid #D2E8F7;
+}
+* html body .menu-liste .menu-entree {
+	height: 1%;
+}
+.menu-liste .menu-entree a {text-decoration: none;	color: #1773BC; }
+.menu-liste .menu-entree a:hover {color: #333;}
+.menu-liste .menu-liste { margin-left: 5px; }
+.menu-liste .menu-liste .menu-entree { border: none; }
+
+/* Listes d'articles et extraits introductifs */
+.articles .liste-items .item { list-style:none;clear: both; padding: 0.40em 0.20em; }
+.articles .liste-items .item .h3 { margin: 0.30em 0; }
+.articles .liste-items .item .h3 a {color:#666666;}
+.articles .item .info-publi { font-size: .95em;	margin-top: 0; clear: left; }
+.articles .item .h3+.info-publi {margin-top:-0.3em;}
+.articles .spip_logos { float: right; clear: right; margin: 0 0 4px 16px; }
+.articles .liste-items .item .enclosures { float: right; text-align: right; max-width: 60%; margin: 0; }
+.articles .liste-items .item .introduction { margin-top: 0.30em; line-height: 1.40em; }
+
+/* post footer */
+.meta-publi {
+	clear:both;
+	background: #F4F8FD;
+	padding: 5px; margin: 20px 0 10px;
+	border: 1px solid #E5F0FB;
+	font-size: 95%;
+}
+.meta-publi .date-redac {	padding-left: 0px; margin: 0 5px; }
+.meta-publi .nb_commentaires { padding-left: 0px; margin: 0 5px; }
+.meta-publi .lire-la-suite { padding-left: 0px; margin: 0 5px; }
+
+/* Pagination */
+.pagination { clear: both; text-align: right; font-size: 0.95em; color: #666; }
+.pagination .on { font-weight: bold; color: #666; }
+.liste-items + .pagination {margin-top:0;}
+
+
+/* Habillage des forums
+---------------------------------------------- */
+.repondre { clear: both; margin-top: 0em; margin-right: 1em; text-align: right; font-weight: bold; }
+
+/* * Habillage des forums */
+ul.forum { display: block; clear: both; margin: 0; padding: 0; }
+ul.forum, ul.forum ul { list-style: none; }
+
+
+/* comments list */
+ul.forum,ul.forum ul {
+	margin: 12px 10px;
+	padding: 0;
+	border-style: solid;	
+	border-color: #F0F0F0;	
+	border-width: 1px 1px 0 1px;
+}
+ul.forum ul.spip {border:0;}
+
+ul.forum ul { margin:0; }
+.forum li {
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+	border-bottom: 1px solid #F0F0F0; 
+}
+.forum ul.spip li {border:0;padding:0;}
+.forum li cite {
+	display: block;
+	font-style: normal;
+	font-weight: bold;
+	padding: 7px;	
+}
+.forum li cite img {
+	float: left;
+	margin-right: 10px;	
+}
+.forum li cite .forum-chapo {
+	font-size: .8em;
+	font-weight: normal;
+}
+.forum li .forum-texte {
+	clear: both;
+	margin: 0; padding: 0;
+}
+.forum li.alt {
+	background: #f8f8f8 
+}
+
+
+/* tables */
+tables.spip tr,tables.spip tr.row_odd,tables.spip tr.row_even {background:transparent;}
+/* ----------------- */
+/********************************************
+   AUTHOR:  			Erwin Aligam 
+   WEBSITE:   			http://www.styleshout.com/
+	TEMPLATE NAME:		CoolWater
+   TEMPLATE CODE: 	S-0019
+   VERSION:          1.0     
+	DATE:					November-07-2007     	
+ *******************************************/
+ 
+/********************************************
+   HTML ELEMENTS
+********************************************/ 
+
+/* top elements */
+* { margin: 0; padding: 0; outline: 0; }
+
+body {
+	background: #caced1;
+	font: 70%/1.5em Verdana, Tahoma, arial, sans-serif;
+	color: #777;
+	text-align: center;
+	margin: 15px 0;
+}
+
+/* links */
+a, a:visited {
+	text-decoration: none;
+	background: inherit;
+	color: #FB9233; 
+}
+a:hover {
+	text-decoration: underline;
+	background: inherit;
+	color: #93C600;
+}
+
+/* headers */
+h1,.h1, h2,.h2, h3,.h3, h3.spip { font-family: 'Trebuchet MS', Tahoma, Sans-serif;  line-height:100%;margin:1em 0 0.5em;}
+h1,.h1 {
+	font-size: 180%;	
+	font-weight: normal;	
+	color: #555;
+}
+h2,.h2 {
+	font-size: 160%;
+	color: #88ac0b;
+	font-weight: normal;
+}
+h3,.h3, h3.spip {
+	font-size: 135%;	 
+	color: #666666;
+
+line-height:100%;}
+
+/* images */
+.spip_documents img,.spip_logos img {
+	background: #fff;
+   border: 1px solid #E5E5E5;
+	padding: 5px;
+}
+.spip_documents_right { margin: 5px 0px 10px 10px;  }
+.spip_documents_left { margin: 5px 10px 10px 0px; }
+
+p {
+	margin: 10px 0px;
+	padding: 0;
+}
+ul.spip, ol.spip, ul.forum ul.spip {
+	margin: 5px 15px;
+	padding: 0 25px;
+}
+
+.spip_code {font: 500 1em/1.5em 'Lucida Console', 'courier new', monospace ;}
+.spip_cadre {
+  margin: 5px 0;
+  padding: 15px;
+  text-align: left;
+  display: block;
+  overflow: auto;  
+  font: 500 1em/1.5em 'Lucida Console', 'courier new', monospace ;
+  /* white-space: pre; */
+  border: 1px solid #E5F0FB;  
+  background: #F4F8FD;
+  width:90%;
+}
+acronym,abbr {
+  cursor: help;
+  border-bottom: 1px dotted #777;
+}
+blockquote.spip {
+  margin: 10px 0;
+  padding-left: 45px;
+  font: bold 1.3em/1.5em "Trebuchet MS", Tahoma, arial, Sans-serif; 
+  color: #2361BA;
+  border: 1px solid #E5F0FB;   
+  background: #F4F8FD url(img/quote.jpg) no-repeat 8px 6px;
+}
+
+/* start - table */
+table.spip {
+	border-collapse: collapse;
+	margin: 10px 0;
+}
+table.spip th strong {
+	color: #fff;
+}
+table.spip th {
+	background: #306bc1 url(img/button-bg.jpg) repeat-x 0 0;
+	height: 35px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #fff;
+	text-align: left;
+	border: 1px solid #306bc1;
+	border-bottom-width: 2px;
+}
+table.spip th a,table.spip th a:hover,table.spip th a:visited {background:none;}
+table.spip tr {
+	height: 32px;
+	background: #fff;	
+}
+table.spip td {
+	padding-left: 12px;
+	padding-right: 12px;
+	border: 1px solid #E5F0FB; 
+}
+/* end - table */
+
+/* form elements */
+.formulaire_spip {
+	margin:10px 0; 
+	padding: 10px 15px;
+	border: 1px solid #E5F0FB; 
+	background: #F4F8FD;
+}
+.formulaire_spip fieldset {
+	margin: 0;	padding: 0;
+	border: none;
+}
+.formulaire_spip legend {
+	display: none;
+}
+.formulaire_spip label {
+	display:block;
+	font-weight:bold;
+	margin: 7px 0;
+}
+.formulaire_spip input.text,.formulaire_spip input.password {
+	padding:3px;
+	border: 1px solid #E5F0FB; 
+	font: normal 1em Verdana, sans-serif;
+	color:#777;	
+}
+.formulaire_spip textarea {
+	padding:3px;
+	font: normal 1em Verdana, sans-serif;
+	border: 1px solid #E5F0FB; 
+	height:100px;
+	display:block;
+	color:#777;
+}
+#contenu .formulaire_spip textarea {	width:400px;}
+
+.formulaire_spip .boutons {
+	text-align:left; margin:0;
+}
+.formulaire_spip .boutons input,.formulaire_spip input.submit { 
+	font: bold 12px Arial, Sans-serif; 
+	height: 28px;
+	margin: 0;
+	padding: 2px 3px; 
+	color: #fff;
+	background: #306bc1 url(img/button-bg.jpg) repeat-x 0 0;
+	border: 1px solid #306bc1;
+}
+
+/* search form */
+.formulaire_recherche {
+	background-color: transparent;
+	border: none;	
+	margin: 0; 
+	padding: 5px 0 5px 0;	
+}
+.formulaire_recherche label {
+	margin: 15px 5px 10px 5px;
+	font: bold 1.4em 'Trebuchet MS', Tahoma, Sans-serif;
+	padding: 0;
+	color: #555;
+}
+
+.formulaire_recherche p { margin: 0; padding: 0; }
+.formulaire_recherche input.text { 
+	width: 220px;
+	color: #777; 
+	height: 20px;
+	padding: 2px;	
+	border: 1px solid #D2E8F7; 
+	vertical-align: top;
+	background-image:none;
+}
+#sidebar .formulaire_recherche input.text {width: 110px;}
+.formulaire_recherche input.submit {
+	height: 26px;
+	padding: 2px 5px;
+	vertical-align: top;
+}
+#sidebar .formulaire_recherche input.submit {width: 55px;}
+
+/********************************************
+   LAYOUT
+********************************************/ 
+#wrap {
+	width: 790px;
+	background: #CCC url(img/content.jpg) repeat-y center top;
+	margin: 0 auto;
+	text-align: left;
+}
+#content-wrap {
+	clear: both;
+	width: 760px;	
+	margin: 5px auto;
+	padding: 0; 	
+}
+#header {
+	position: relative;
+	height: 131px;
+	background: #caced1 url(img/header.jpg) no-repeat center top;
+	padding: 0;	
+	color: #fff;	
+}
+#header #nom_site_spip {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: bolder 55px 'Trebuchet MS', Arial, Sans-serif;
+	letter-spacing: -3px;
+	color: #fff;
+	text-transform: none;
+	text-decoration: none;
+	background: transparent;
+	
+	/* change the values of top and left to adjust the position of the logo*/
+	top: 18px; left: 35px;	
+}
+#header #nom_site_spip a {color: #fff;}
+
+#header #slogan_site_spip  {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: bold 13px 'Trebuchet MS', Arial, Sans-serif;
+	text-transform: none;
+	color: #FFF;
+	
+	/* change the values of top and left to adjust the position of the slogan*/
+	top: 80px; left: 50px;		
+}
+#header .accueil img.spip_logos { 	
+	display:none;
+	position: absolute;
+	/* change the values of top and left to adjust the position of the logo*/
+	bottom: 0px; right: 5px;	
+}
+#header .formulaire_menu_lang { position: absolute; right: 10px; top: 5px; display: block; margin:0;width: 235px;padding:0;background:none;border:0; } /*Cf.: spip_formulaires.css*/
+
+/* header links */
+#header #header-links {
+	position: absolute;
+	color: #C6DDEE;
+	font: bold 14px"Trebuchet MS", Arial, Tahoma, Sans-serif;
+	top: 20px; right: 20px;	
+}
+#header #header-links a {	
+	color: #fff;
+	text-decoration: none;	
+}
+#header #header-links a:hover {
+	color: #D4FF55;	
+}
+#descriptif_site_spip {
+	margin-bottom: 1em; padding: 0;
+	font: bold 13px 'Trebuchet MS', Arial, Sans-serif;
+	text-transform: none;
+}
+
+/* navigation */
+#nav {
+	clear: both;	
+	margin: 0 auto; padding: 0;
+	background: #81C524 url(img/menu.jpg) no-repeat;
+	font: bold 16px/40px "trebuchet MS", Arial, Tahoma, Sans-serif;
+	height: 40px;
+	width: 790px;
+	overflow: hidden;
+}
+#nav .menu-liste {
+	float: left;
+	list-style: none;
+	margin:0; padding: 0 0 0 20px;
+}
+#nav .menu-liste .menu-entree {
+	display: inline;padding:0;margin:0;
+}
+#nav .menu-liste .menu-entree a {
+	display: block;
+	float: left;
+	padding: 0 12px;
+	color: #fff;	
+	text-decoration: none;
+	background: url(img/sep.jpg) no-repeat 100% 100%;
+}
+#nav .menu-liste .menu-entree a:hover {
+	color: #3b5e0b;	
+}
+#nav .menu-liste .menu-entree.on a {
+	color: #3b5e0b;
+}
+#nav .menu-entree .menu-liste{
+display:none;
+}
+
+/* Main Column */
+#main {
+	float: left;
+	width: 515px;
+	margin: 0; padding: 20px 20px; 
+	display: inline;
+	background: url(img/box.jpg) no-repeat;
+}
+#main h2,#main .h2 {
+	font: normal 180% 'Trebuchet MS', Tahoma, Arial, Sans-serif;
+	padding: 0; 	
+	margin-bottom: 0;		
+	color: #2666c3;
+}
+#main h2 a,#main .h2 a {
+	color: #2666c3;
+	text-decoration: none;	
+}
+
+#main ul.spip li {
+	list-style-image: url(img/bullet.gif);
+}
+
+/* Sidebar */	
+#sidebar-wrap {
+	float: right;
+	width: 195px;
+	padding: 0; margin: 10px 0 0;	
+	color: #777;	
+}
+#sidebar {margin-right:10px;}
+#sidebar h2,#sidebar .h2 {
+	margin: 15px 5px 10px 5px;
+	font: bold 1.4em 'Trebuchet MS', Tahoma, Sans-serif;
+	color: #555;	
+}
+
+#sidebar .menu-liste {
+}
+#sidebar .menu-liste .menu-entree {
+}
+
+/* Footer */	
+#footer {
+	color: #C6DDEE;
+	background: #caced1 url(img/footer.jpg) no-repeat center top;
+	clear: both;
+	width: 790px;
+	height: 57px;
+	text-align: center;	
+	font-size: 90%;	
+}
+#footer-content { 
+	padding: 10px 0;
+	margin: 0;
+}
+#footer a { 
+	color: #fff;
+	text-decoration: none; 
+}

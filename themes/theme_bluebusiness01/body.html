@@ -1,0 +1,41 @@
+
+        <div id="page">
+
+            <div id="entete">
+               <INCLURE{fond=inclure/entete,env}>
+            </div>
+            
+	    <div id="container-eyecatcher">
+            <div id="nav"><INCLURE{fond=inclure/barre-nav,env}></div>
+            <img src="#CHEMIN{img/business_eyecatcher.jpg}" alt="Business picture" />
+	    </div>
+
+            <div id="conteneur">
+
+		<div id="contenu">
+                
+                	<INCLURE{fond=contenu/#ENV{type},env}>
+			
+		</div> <!-- CONTENU END -->
+
+		<div id="navigation">
+		
+			<INCLURE{fond=navigation/#ENV{type},env}>
+			
+		</div>
+		
+		<div id="extra">
+			
+			<INCLURE{fond=extra/#ENV{type},env}>
+
+		</div>
+
+	    </div>
+
+            <div id="pied">
+                 <div id="footer">
+                    <div id="footer-copyright"><INCLURE{fond=inclure/pied,env}></div>
+                    <div id="footer-meta"><INCLURE{fond=inc-theme-copyleft}></div></div>
+            </div>
+
+        </div> <!-- ENDE container -->

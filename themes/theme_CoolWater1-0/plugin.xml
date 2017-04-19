@@ -1,0 +1,21 @@
+<plugin>
+  <nom>CoolWater</nom>
+	<auteur>[styleshout->www.styleshout.com], [adapt&#233; pour Zpip par C&#233;dric Morin (yterium.com)->http://www.yterium.com]</auteur>
+   <version>1.0.0</version>
+	<licence>Creative Commons Attribution 2.5</licence>
+	<slogan><multi>
+	[en]Z theme blue and green, two-columns Layout
+	[fr]Th&#232;me Z bleu ciel et de vert, 2 colonnes
+	</multi></slogan>
+	<description><multi>
+	[en]A simple and clean design. Uses a combination of light blue and green colors. Has a fixed width, two-columns Layout.
+	[fr]Un th&#233;me simple et clair, reposant sur une combinaison de bleu ciel et de vert. En largeur fixe et 2 colonnes.
+	</multi></description>
+	<lien>http://www.spip-contrib.net/CoolWater-1-0</lien>
+	<icon>vignette.jpg</icon>
+   <etat>stable</etat>
+   <prefix>theme_coolwater</prefix>
+	<necessite id="SPIP" version="[2.0.10;3.0.99]" />
+	<utilise id="Z" version="[1.2.0;]" />
+	<categorie>theme</categorie>
+</plugin>
